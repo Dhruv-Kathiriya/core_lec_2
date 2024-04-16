@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   List<int> myList = [];
-  stdout.write('Enter the length of the list: ');
+  stdout.write('Enter the length list: ');
   int length = int.parse(stdin.readLineSync()!);
   for (int i = 0; i < length; i++) {
     stdout.write('Enter element ${i + 1}: ');
